@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nvs{
+    display: flex;
+    gap: 30px;
+}
+.nvs li{
+    list-style: none;
+    cursor: pointer;
+}
+#hero{
+    background-image: url(images/hero.jpg);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#hero button{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#g21{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+#g21 li{
+    list-style: none;
+    cursor: pointer;
+}
+#yh{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+#yh button{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#tv{
+    background-image: url(images/TV_HOME.jpg);
+    width: 100%;
+    height: 830px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+#tv ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 610px;
+}
+#tv ul li{
+    list-style: none;
+    cursor: pointer;
+}
+#learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#learn button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#ha{
+    background-image: url(images/home_appliances.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#ha ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 570px;
+}
+#ha ul li{
+    list-style: none;
+    cursor: pointer;
+}
+#ha button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+#tmp ul{
+    display: flex;
+    gap: 30px;
+}
+#tmp ul li{
+    list-style: none;
+    cursor: pointer;
+}
+#tnav{
+    display: flex;
+    justify-content: space-between;
+}
+#tnav div ul{
+    display: flex;
+    gap: 30px;
+}
+#tnav div ul{
+    list-style: none;
+    cursor: pointer;
+}
+#navimg{
+    height: 60px;
+    width: 80px;
+}
+#f1t{
+    height: 440px;
+    background-image: url(imgt/01_galaxy_tab_s_pc.jpg);
+    padding-top: 280px;
+    padding-left: 720px;
+}
+#f1t button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#f1t h1{
+    font-size: 50px;
+}
+#divv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#f2t{
+    height: 440px;
+    background-image: url(imgt/02_galaxy_tab_a_pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    padding-left: 100px;
+}
+#f2t button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#f2t h1{
+    font-size: 50px;
+}
+#headd{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(imgha/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#headd button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+#shit{
+    display: flex;
+    gap: 140px;
+
+}
+#ei{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url(imgha/side_by_side.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ei button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#eii{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url(imgha/add_wash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eii button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#eiii{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url(imgha/jetstick.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eiii button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#eiiii{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url(imgha/microwave_ovens.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eiiii button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.life{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.fi{
+    height: 30px;
+    width: 30px;
+}
